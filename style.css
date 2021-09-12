@@ -1,0 +1,86 @@
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container .banner{
+    background-image:url("Untitled-8.jpg") ;
+    height: 55vh;
+    width: 3000px;
+    border-radius: 5px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px #0005;
+    overflow: hidden;
+}
+
+.banner-container .banner .cat{
+    flex: 1 1 250px;
+    padding: 15px;
+    text-align: center;
+}
+
+.banner-container .banner .cat img{
+    width: 80%;
+}
+
+
+.banner-container .banner .content{
+    flex: 1 1 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner-container .banner .content  span{
+    color: #14213d;
+    font-size: 60px ;
+}
+
+.cat{
+    margin-top: 100px;
+}
+
+.dog{
+    margin-top: 100px;
+}
+
+
+p{
+    margin-bottom: 90px;
+    font-size: 55px;
+    font-weight: bolder;
+    color: #14213d;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 90px;
+    color: #14213d;
+}
+
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #14213d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
